@@ -1,0 +1,181 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.app {
+  background-color: rgb(63, 39, 9);
+  height: 100vh;
+}
+
+.logo {
+  background-color: rgb(243, 160, 45);
+  text-align: center;
+}
+
+.logo h1 {
+  font-size: 3rem;
+  padding: 20px 0px;
+  font-family: "Fascinate Inline", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.add-form {
+  background-color: rgb(255, 115, 0);
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+.add-form h3 {
+  padding: 20px 0;
+}
+
+.input-field {
+  width: 40%;
+  min-width: 200px;
+  max-width: 300px;
+  margin-left: 20px;
+  margin-right: 3px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  box-sizing: border-box;
+  margin-bottom: 10px;
+}
+
+.select-field {
+  width: 50px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  box-sizing: border-box;
+  margin-bottom: 10px;
+  appearance: none;
+  background-image: url('data:image/svg+xml;utf8,<svg fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>');
+  background-repeat: no-repeat;
+  background-position: right 10px top 50%;
+  background-size: 12px;
+}
+
+.add-form .button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.add-form .button:hover {
+  background-color: #0056b3;
+}
+li span {
+  font-size: 1.8rem;
+}
+
+.list {
+  height: calc(100% - 290px);
+}
+
+.list ul {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 25px 40px;
+  height: calc(100% - 120px);
+}
+
+.items {
+  color: white;
+  font-size: 2rem;
+  margin: 10px 20px;
+}
+
+.items button {
+  margin-left: 3px;
+  font-size: 1.5rem;
+  background: transparent;
+  border: none;
+}
+
+.states {
+  background-color: aquamarine;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 4px 10px;
+}
+
+.states-text {
+  font-size: 1.2rem;
+}
+
+input[type="checkbox"] {
+  width: 20px;
+  height: 20px;
+  margin-right: 5px;
+  accent-color: rgb(255, 115, 0);
+}
+
+input[type="checkbox"]:checked {
+  background-color: rgb(255, 115, 0);
+  border-color: #007bff;
+}
+
+.actions {
+  width: 30%;
+  max-width: 250px;
+  min-width: 189px;
+  padding: 8px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  outline: none;
+}
+
+.container {
+  margin-bottom: 20px;
+}
+
+.ForSorted .button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.add-form .button:hover {
+  background-color: #0056b3;
+}
+
+.ForSorted {
+  display: flex;
+  justify-content: center;
+  gap: 5px;
+  margin-top: 10px;
+}
+
+@media only screen and (max-width: 410px) {
+  .logo h1 {
+    font-size: 2.3rem;
+  }
+  li span {
+    font-size: 1.6rem;
+  }
+  input[type="checkbox"] {
+    width: 18px;
+    height: 18px;
+  }
+}
