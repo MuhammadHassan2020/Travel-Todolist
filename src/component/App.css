@@ -86,7 +86,10 @@
   display: flex;
   flex-wrap: wrap;
   padding: 25px 20px;
-  height: calc(100% - 120px);
+  height: 50%;
+}
+.underlist {
+  height: calc(100% - 70px);
 }
 li span {
   font-size: 1.5rem;
@@ -94,7 +97,7 @@ li span {
 
 .items {
   color: white;
-  margin: 0px 15px;
+  margin: 0px 25px;
 }
 
 .items button {
@@ -168,15 +171,15 @@ input[type="checkbox"]:checked {
 
 @media only screen and (max-width: 410px) {
   .states {
-    height: 60px;
+    height: 58px;
   }
   .items {
     font-size: 1rem;
-    margin: 0px 5px;
+    margin: 3px 10px;
   }
   .list ul {
     gap: 0px;
-    padding: 25px 15px;
+    padding: 25px 12px;
   }
 
   .logo h1 {

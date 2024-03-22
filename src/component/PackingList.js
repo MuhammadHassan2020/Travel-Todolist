@@ -17,11 +17,13 @@ export const PackingList = ({ items, onDeleteItems, onToggleItems, onClearList }
 
     return (
         <div className='list'>
-            <ul>
-                {sortedItems?.map((item) => (
-                    <Item item={item} key={item.id} onDeleteItems={onDeleteItems} onToggleItems={onToggleItems} />
-                ))}
-            </ul>
+            <div className='underlist'>
+                <ul>
+                    {sortedItems?.map((item) => (
+                        <Item item={item} key={item.id} onDeleteItems={onDeleteItems} onToggleItems={onToggleItems} />
+                    ))}
+                </ul>
+            </div>
             <div className='ForSorted'>
                 <select className='actions' value={sortBy} onChange={e => setSortBy(e.target.value)}>
                     <option value="input">Sort by input</option>
