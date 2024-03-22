@@ -168,6 +168,10 @@ input[type="checkbox"]:checked {
 }
 
 @media only screen and (max-width: 410px) {
+  .app {
+    height: 102vh;
+  }
+
   .logo h1 {
     font-size: 2.3rem;
   }
