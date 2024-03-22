@@ -77,9 +77,6 @@
 .add-form .button:hover {
   background-color: #0056b3;
 }
-li span {
-  font-size: 1.8rem;
-}
 
 .list {
   height: calc(100% - 290px);
@@ -88,15 +85,16 @@ li span {
 .list ul {
   display: flex;
   flex-wrap: wrap;
-  gap: 20px;
-  padding: 25px 40px;
+  padding: 25px 20px;
   height: calc(100% - 120px);
+}
+li span {
+  font-size: 1.5rem;
 }
 
 .items {
   color: white;
-  font-size: 2rem;
-  margin: 10px 20px;
+  margin: 0px 15px;
 }
 
 .items button {
@@ -108,7 +106,8 @@ li span {
 
 .states {
   background-color: aquamarine;
-  height: 50px;
+  /* height: 50px; */
+  height: 43px;
   display: flex;
   justify-content: center;
   align-items: center;
